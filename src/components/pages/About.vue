@@ -11,21 +11,20 @@
                 <p class="about_description ">Web developer, with extensive knowledge.</p>
             </div>
             <div class="about_data">
+                <div>
+                    <h3>學歷</h3>
+                </div>
                 <div class="about_info">
                     <div>
-                        <span class="about_info-title">08+</span>
-                        <span class="about_info-name">Years <br> experience </span>
+                        <span class="about_info-title">元智大學-資訊管理學系</span>
+                        <span class="about_info-name"><br> 2014-2020 </span>
                     </div>
 
                     <div>
-                        <span class="about_info-title">20+</span>
-                        <span class="about_info-name">Completed <br> project </span>
+                        <span class="about_info-title">華江高中</span>
+                        <span class="about_info-name"><br> 2011-2014 </span>
                     </div>
 
-                    <div>
-                        <span class="about_info-title">05+</span>
-                        <span class="about_info-name">Companies <br> worked </span>
-                    </div>
                 </div>
             </div>
         </div>
