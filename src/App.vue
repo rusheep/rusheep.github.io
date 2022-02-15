@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style lang = "scss">
-@import "./assets/all";
+  @import "./assets/style/all";
+  
+  body {
+    margin: 0;
+  }
 </style>
