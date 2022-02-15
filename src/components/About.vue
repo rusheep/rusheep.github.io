@@ -22,7 +22,7 @@
       </div>
       <div class="personal-ability-item">
         <h3>盡責性</h3>
-        <span>喜歡秩序、有條理、負責任、努力完成目標。</span>
+        <span>喜歡秩序、有條理、負責任、努力完成目標。我是開心的小肥羊。</span>
       </div>
     </div>
   </div>
