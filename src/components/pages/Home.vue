@@ -18,7 +18,7 @@
           <div class="content-icon-wrap">
             <i class="fas fa-envelope content-icon"></i>
           </div>
-          <a href="mailto:yo0983987618@gmail.com">yo0983987618@gmail.com</a>
+          <a href="mailto:rising.moon.studio.tw@gmail.com">rising.moon.studio.tw@gmail.com</a>
         </div>
         <div class="home_detail">
           <div class="content-icon-wrap">
@@ -42,7 +42,7 @@
               class="profile-container"
             >
               <div class="profile">
-                <img src="../../assets/img/profile.jpeg" alt="">
+                <img src="../../assets/img/profile3.jpg" alt="">
               </div>
               <div class="rect"></div>
             </div>

@@ -15,15 +15,20 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'Dashboard',
-      component: Dashboard,
-      children: [
-        {
-          path: 'home',
-          name: 'Home',
-          component: Home,
-        },
-      ],
-    },
+      name: "Home",
+      component: Home,
+    }
+    // {
+    //   path: '/',
+    //   name: 'Dashboard',
+    //   component: Dashboard,
+    //   children: [
+    //     {
+    //       path: 'home',
+    //       name: 'Home',
+    //       component: Home,
+    //     },
+    //   ],
+    // },
   ]
 })

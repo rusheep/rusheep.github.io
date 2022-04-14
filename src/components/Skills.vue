@@ -3,6 +3,10 @@
     <div class="skill-title">
       <h1>專業技能</h1>
     </div>
+    <div class="link">
+      <div class="link-left"></div>
+      <div class="link-right"></div>
+    </div>
     <div class="skill-wrap">
       <div class="skill-item">
         <h2 class="skill-name">Language</h2>
@@ -47,11 +51,34 @@
     color: $orange;
   }
 
-  .skill {
-    margin: 0;
+  .link {
     width: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+  }
+
+  .link-right {
+    width: 30%;
+    height: 15vh;
+    border-right: 5px dashed $red;
+    border-top: 5px dashed $red;
+  }
+
+  .link-left {
+    width: 30%;
+    height: 15vh;
+    border-left: 5px dashed $red;
+    border-right: 5px dashed $red;
+    border-top: 5px dashed $red;
+  }
+
+  .skill {
+    margin: 0;
+    height: 100%;
+    width: 100vh;
+    display: flex;
+    justify-content: start;
     align-items: center;
   }
 
@@ -70,10 +97,20 @@
 
   .skill-item {
     width: 30vh;
+    height: 8vh;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-left: 8px;
+    border:5px dashed $red;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    transition: 0.5s;
+  }
+
+  .skill-item:hover {
+    height: 25vh;
   }
 
   .skill-item-wrap {
