@@ -1,70 +1,89 @@
 <template>
-    <div class="container sticky-top">
-        <div class="m-4">
-            <img src="../assets/logo.png" alt="" class="logo">
-        </div>
-        <div class="m-4">
-            <ul class="nav">
-                <li class="nav-item">
-                    <router-link class="navbar-brand" to="/home">
-                    Home
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-brand" to="/about">
-                    About
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-brand" to="/skills">
-                    Skills
-                    </router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="navbar-brand" to="/protfolio">
-                    Project
-                    </router-link>
-                </li>
-            </ul>
-        </div>
-    </div>
+  <div class="nav-container">
+    <ul class="nav">
+      <a target="blank" href="https://www.facebook.com/yo0960797">
+        <img class="icon" :src="facebook" alt="Facebook">
+      </a>
+      <a target="blank" href="https://www.instagram.com/ru_sheep/">
+        <img class="icon" :src="instagram" alt="Instagram">
+      </a>
+      <a target="blank" href="">
+        <img class="icon" :src="files" alt="files">
+      </a>
+    </ul>
+  </div>
 </template>
 
-<style scoped>
+<script>
+import Facebook from '../assets/img/facebook.png';
+import Instagram from '../assets/img/instagram.png';
+import Files from '../assets/img/files.png'
 
-
-    .logo {
-        height: 50px;
+export default {
+  computed: {
+    facebook() {
+      return Facebook;
+    },
+    instagram() {
+      return Instagram;
+    },
+    files() {
+      return Files;
     }
+  }
+}
+</script>
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        background-color: #252d40;
-    }
+<style lang="scss" scoped>
+@import "../assets/style/all";
+  .logo {
+    height: 50px;
+  }
 
-    .navbar {
-        display: flex;
-        justify-content: flex-end;
-    }
+  .icon {
+    height: 1.5em;
+    margin-right: 20px;
+  }
 
-    .nav-item {
-        align-items: center;
-        text-align: center;
-        border-radius: 10px;
-        display: block;
-        /* border: 1px red solid; */
-    }
+  .nav-container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $black;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    border-bottom: 2px solid $orange;
+  }
 
-    .nav-item a {
-        padding: 15px;
-    }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    z-index: 10;
+  }
 
-    .nav-item:hover {
-        background-color:#6f42c1;
-    }
+  .nav-item {
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    /* border: 1px red solid; */
+  }
 
-    .navbar-brand:hover {
-        color: white;
-    }
+  .nav-item a {
+    font-weight: 600;
+    color: $orange;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    background-color: $light-blue;
+  }
+
+  .navbar-brand:hover {
+    color: $black;
+  }
 </style>

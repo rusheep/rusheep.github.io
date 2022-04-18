@@ -18,7 +18,7 @@
         </div>
         <div class="about-content-wrap">
           <div class="info" v-if="stage === STAGE.PROFILE">
-            <span class="info-detail">Hi,我是陳友宣<br>元智大學資訊管理系畢業。
+            <span class="info-detail">Hi，我是陳友宣<br>元智大學資訊管理系畢業。
     因為受到本科系影響，在大學時就對前端程式產生濃厚的興趣，也在這段過程中不斷地透過線上課程自學培養了前端程式的觀念，希望能夠找到一份前端工程師的職位來發揮自己的長才。
             </span>
           </div>
