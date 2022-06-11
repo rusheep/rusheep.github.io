@@ -6,7 +6,7 @@
           <h1>陳友宣｜Rusheep</h1>
         </div>
         <div class="home_subtitle">
-          <h3 class="subtitle">前端開發者｜Front-End Developer030</h3>
+          <h3 class="subtitle">前端開發者｜Front-End Developer</h3>
         </div>
         <div class="home_detail">
           <div class="content-icon-wrap">
